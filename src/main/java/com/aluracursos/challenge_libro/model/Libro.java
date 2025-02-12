@@ -57,5 +57,12 @@ public class Libro {
     public void setNumeroDeDescargas(Integer numeroDeDescargas) {
         this.numeroDeDescargas = numeroDeDescargas;
     }
+
+    public String toString(){
+        return "Titulo = " + titulo +
+                "Autor = " + autor +
+                "Idioma = " + idioma +
+                "Número de descargas = " + numeroDeDescargas;
+    }
 }
 

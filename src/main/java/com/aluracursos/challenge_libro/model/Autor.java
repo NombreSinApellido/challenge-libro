@@ -56,4 +56,8 @@ public class Autor {
     public void setLibro(List<Libro> libro) {
         this.libro = libro;
     }
+
+    public String toString(){
+        return "Autor = " + nombre;
+    }
 }
